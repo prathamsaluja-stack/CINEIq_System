@@ -1,0 +1,46 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.dist-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data & model artifacts (large files)
+/data/*.csv
+/data/*.tsv
+/data/*.parquet
+/data/*.json
+/data/*.zip
+/data/*.rar
+/model/*.pkl
+/model/*.joblib
+/model/*.bin
+/model/*.pt
+/model/*.pth
+
+# Generic large artifacts
+*.pkl
+*.joblib
+*.bin
+*.pt
+*.pth
